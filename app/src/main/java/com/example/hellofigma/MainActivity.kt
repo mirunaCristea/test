@@ -30,6 +30,7 @@ import com.example.hellofigma.ui.theme.HelloFigmaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        var ceva = "sdadas";
         super.onCreate(savedInstanceState)
         setContent {
             HelloFigmaTheme {
